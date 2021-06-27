@@ -3,7 +3,7 @@ import {
     REMOVE_ALERT
 } from '../types';
 
-export default (state, action) => {
+export default alertReducer = (state, action) => {
     switch (action.type) {
         case SET_ALERT:
             return action.payload;

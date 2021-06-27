@@ -27,8 +27,7 @@ const GithubState = props => {
         users: [],
         user: {},
         repos: [],
-        loading: false,
-        alert:{}
+        loading: false
     }
 
     const [state, dispatch] = useReducer(GithubReducer, initialState);
