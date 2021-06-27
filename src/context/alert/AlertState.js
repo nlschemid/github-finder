@@ -1,6 +1,6 @@
 import { useReducer } from 'react'
 import AlertContext from './alertContext'
-import AlertReducer from './alertReducer'
+import {AlertReducer} from './alertReducer'
 
 import {
     SET_ALERT,
