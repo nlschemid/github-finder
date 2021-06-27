@@ -15,6 +15,7 @@ const User = ({match }) => {
     useEffect(() => {
         getUser(match.params.login)
         getUserRepos(match.params.login)
+        //eslint-disable-next-line
     }, [])
 
     if (loading) return <Spinner></Spinner>;
@@ -35,6 +36,7 @@ const User = ({match }) => {
                     </img>
                     <h1>{name}</h1>
                     <p>Location: :{location}</p>
+                    <p>Company: :{company}</p>
                 </div>
                 <div>
                     {bio && (
